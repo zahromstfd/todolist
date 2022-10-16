@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="todo.css">
+    <title>Website To Do List</title>
+  </head>
+  <body>
+        <div class="container" style="background-color:#E4E4E4; background-image: linear-gradient(#f1a3a3, rgb(180, 197, 243));" >
+            <h2 class="text-center" >
+                <i class='bx bx-list-check bx-xxl' style="color:blue"></i>
+                    Website To Do List
+            </h2>
+            <div class="input">
+                <input class="form-tambah" type="text" name="task" placeholder="Input task...">
+                <button class="btn-tambah" onclick="tambah()">Submit</button>
+            </div>
+            <td>
+                <table class="list" id="tabel">
+                </table>
+            </td>
+        </tr>
+    <script src="todo.js"></script>
+</body>
+
+</html>
